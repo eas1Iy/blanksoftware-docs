@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "BlankSoftware"
   text: "Документация"
-  tagline: Wiki по платформе, модификациям и экосистеме BlankSoftware
+  tagline: Wiki по экосистеме.
   actions:
     - theme: brand
       text: Модификации
