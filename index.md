@@ -1,25 +1,23 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "BlankSoftware Docs"
-  text: "Документация экосистемы."
-  tagline: My great project tagline
+  name: "BlankSoftware"
+  text: "Документация"
+  tagline: Настройка веб-платформы, лаунчеров и модификаций DayZ
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Настроить ядро
+      link: /mods/core-server
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: API сайта
+      link: /website/api
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 🌐 Платформа и Лаунчеры
+    details: Инструкции по привязке серверов, настройке автовыдачи ролей и кастомизации BSLauncher.
+  - title: 🛠 Серверное Ядро
+    details: Базовая конфигурация экосистемы модов, настройка пермишенов и привязка к БД.
+  - title: 🎒 Системы и Моды
+    details: Детальное описание JSON-конфигов для Advanced Map, Duels System, HitFeed и других модулей.
 ---
-
