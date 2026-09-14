@@ -21,32 +21,32 @@ export default defineConfig({
         text: 'Платформа (Сайт)',
         collapsed: false, // Меню развернуто по умолчанию
         items: [
-          { text: 'Обзор платформы', link: '/website/' },
-          { text: 'API и интеграции', link: '/website/api' }
+          { text: 'Обзор платформы', link: '/website/' }
         ]
       },
       {
         text: 'Модификации DayZ',
         collapsed: false,
         items: [
-          { text: 'Ядро клиентское', link: '/mods/core-client' },
-          { text: 'Ядро серверное', link: '/mods/core-server' },
+          { text: 'Core System [CLIENT]', link: '/mods/core-client' },
+          { text: 'Core System [SERVER]', link: '/mods/core-server' },
           { text: 'Advanced Map System', link: '/mods/advanced-map' },
           { text: 'Duels System', link: '/mods/duels' },
-          { text: 'Group System', link: '/mods/groupsystem' }
+          { text: 'Group System', link: '/mods/groupsystem' },
+          { text: 'Claim Territory', link: '/mods/claimterritory' }
         ]
       }
     ],
 
     // Иконки соцсетей в правом верхнем углу
     socialLinks: [
-      { icon: 'discord', link: 'https://discord.gg/ТВОЙ_СЕРВЕР' },
-      { icon: 'github', link: 'https://github.com/eas1ly' }
+      { icon: 'discord', link: 'https://discord.gg/G9QgchMr9B' },
+      { icon: 'github', link: 'https://github.com/eas1Iy' }
     ],
     
     // Текст в подвале
     footer: {
-      message: 'Создано для администраторов серверов DayZ.',
+      message: 'Создано для клиентов BSMods.',
       copyright: 'Copyright © 2026 BlankSoftware'
     }
   }

@@ -4,20 +4,20 @@ layout: home
 hero:
   name: "BlankSoftware"
   text: "Документация"
-  tagline: Настройка веб-платформы, лаунчеров и модификаций DayZ
+  tagline: Wiki по платформе, модификациям и экосистеме BlankSoftware
   actions:
     - theme: brand
-      text: Настроить ядро
+      text: Модификации DayZ
       link: /mods/core-server
     - theme: alt
-      text: API сайта
-      link: /website/api
+      text: Веб-сайт
+      link: /website/
 
 features:
-  - title: 🌐 Платформа и Лаунчеры
-    details: Инструкции по привязке серверов, настройке автовыдачи ролей и кастомизации BSLauncher.
-  - title: 🛠 Серверное Ядро
-    details: Базовая конфигурация экосистемы модов, настройка пермишенов и привязка к БД.
-  - title: 🎒 Системы и Моды
-    details: Детальное описание JSON-конфигов для Advanced Map, Duels System, HitFeed и других модулей.
+  - title: 🌐 Платформа BlankSoftware
+    details: Информация о сайте, магазине, личном кабинете и доступных возможностях платформы.
+  - title: 🧩 Модификации DayZ
+    details: Описание модов BlankSoftware, их возможностей, зависимостей и особенностей работы.
+  - title: ⚙️ Настройка и использование
+    details: Руководства по установке, настройке конфигураций и решению распространённых вопросов.
 ---
