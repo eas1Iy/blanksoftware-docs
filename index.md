@@ -7,7 +7,7 @@ hero:
   tagline: Wiki по платформе, модификациям и экосистеме BlankSoftware
   actions:
     - theme: brand
-      text: Модификации DayZ
+      text: Модификации
       link: /mods/core-server
     - theme: alt
       text: Веб-сайт
